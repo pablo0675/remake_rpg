@@ -1,0 +1,4 @@
+void enemy(void)
+{
+    return;
+}

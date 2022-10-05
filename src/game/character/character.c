@@ -1,0 +1,4 @@
+void character(void)
+{
+    return;
+}

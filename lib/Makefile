@@ -49,13 +49,14 @@ SRC				=	$(ARRAY_SRC)			\
 					$(STR_SRC)
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	libc.a
+NAME	=	librpgmy.a
 
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
 	ar rc $(NAME) $(OBJ)
 	rm $(OBJ)
+	cp include/* ../includes/
 clean:
 	rm -f $(OBJ)
 

@@ -1,0 +1,4 @@
+void fight(void)
+{
+    return;
+}

@@ -1,0 +1,4 @@
+void window(void)
+{
+    return;
+}
