@@ -42,6 +42,7 @@ STR_SRC			=	$(STR)my_strcat.c				\
 					$(STR)my_strcmp.c				\
 					$(STR)my_strcpy.c				\
 					$(STR)my_strlen.c				\
+					$(STR)my_strdup.c
 
 SRC				=	$(ARRAY_SRC)			\
 					$(CONVERTOR_SRC)		\

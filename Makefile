@@ -55,18 +55,19 @@ SRC_INVENTORY	=			$(INVENTORY_PATH)inventory.c
 
 SRC_CSFML		=			$(CSFML_PATH)window.c
 
-SRC				=			$(SRC_PATH)main.c	\
-							$(SRC_MENU)			\
-							$(SRC_GAME)			\
-							$(SRC_MAP)			\
-							$(SRC_CHAR)			\
-							$(SRC_ENEMY)		\
-							$(SRC_FIGHT)		\
-							$(SRC_INVENTORY)	\
+SRC				=			$(SRC_PATH)main.c			\
+							$(SRC_PATH)get_arguments.c	\
+							$(SRC_MENU)					\
+							$(SRC_GAME)					\
+							$(SRC_MAP)					\
+							$(SRC_CHAR)					\
+							$(SRC_ENEMY)				\
+							$(SRC_FIGHT)				\
+							$(SRC_INVENTORY)			\
 							$(SRC_CSFML)
 
-TEST_SRC		=			test_menu.c			\
-							test_game.c			\
+TEST_SRC		=			test_menu.c					\
+							test_game.c					\
 
 ## ===========================[OBJ]===========================
 
