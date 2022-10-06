@@ -4,6 +4,9 @@
 *.obj
 *.elf
 
+#exucutable
+miaourpg
+
 # Libraries
 *.lib
 *.a
