@@ -39,7 +39,13 @@ CSFML_PATH		=			$(SRC_PATH)csfml_lib/
 ## ===========================[SRC]===========================
 ## ===========================================================
 
-SRC_MENU		=			$(MENU_PATH)menu.c
+SRC_MENU		=			$(MENU_PATH)menu.c			\
+							$(MENU_PATH)menu_copy.c		\
+							$(MENU_PATH)button.c		\
+							$(MENU_PATH)calque.c		\
+							$(MENU_PATH)effect_button.c	\
+							$(MENU_PATH)init_menu.c		\
+							$(MENU_PATH)init_calque.c	\
 
 SRC_GAME		=			$(GAME_PATH)game.c
 
