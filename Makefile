@@ -40,7 +40,6 @@ CSFML_PATH		=			$(SRC_PATH)csfml_lib/
 ## ===========================================================
 
 SRC_MENU		=			$(MENU_PATH)menu.c			\
-							$(MENU_PATH)menu_copy.c		\
 							$(MENU_PATH)button.c		\
 							$(MENU_PATH)calque.c		\
 							$(MENU_PATH)effect_button.c	\
