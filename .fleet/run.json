@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "makefile",
+            "program": "make",
+            "program": "./my_rpg",
+            },
+        {
+            "type": "command",
+            "name": "makefile debug",
+            "program": "make debug",
+            "program": "valgrind ./my_rpg",
+        }
+    ]
+}
